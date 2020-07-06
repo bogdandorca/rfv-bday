@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, "Sans Serif";
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.countdown-container {
+    bottom: 170px;
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+}
+
+.modal {
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.countdown {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.clock {
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.clock > div {
+    display: inline-block;
+    max-width: 24%;
+}
+
+.sub-text {
+    font-size: 14px;
+}
